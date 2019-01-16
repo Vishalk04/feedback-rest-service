@@ -9,7 +9,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "feedback")//, schema = "feedback_schema"
+@Table(name = "feedback", schema = "feedback_schema")
 @Getter
 @Setter
 @NoArgsConstructor
