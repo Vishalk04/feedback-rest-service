@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hc-feedback-pipeline
-        image: kartikjalgaonkar/hc_feedback_pipeline:latest
+        image: kartikjalgaonkar/hc_feedback_pipeline1:latest
         imagePullPolicy: "Always"
         ports:
         - name: https
