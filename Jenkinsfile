@@ -15,7 +15,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-       app = docker.build("kartikjalgaonkar/hc_feedback_pipeline")
+       app = docker.build("kartikjalgaonkar/hc_feedback_pipeline1")
     }
 
     stage('Push image') {
